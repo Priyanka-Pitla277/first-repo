@@ -26,9 +26,9 @@ jobs:
       # Step 3: Compile your Java source code
       # Replace 'Main.java' with the actual path to your main file (e.g., src/Main.java)
       - name: Compile Java Files
-        run: javac Main.java
+        run: javac com/practice/github/actions/Main.java
 
       # Step 4: Run your Java program to ensure it executes without crashing
       # Replace 'Main' with your actual compiled class name
       - name: Run Application
-        run: java Main
+        run: java -cp com/practice/github/actions/Main
