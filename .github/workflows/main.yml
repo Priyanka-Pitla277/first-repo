@@ -29,8 +29,8 @@ jobs:
 
       # Step 3 (OPTION A): Build and Test using MAVEN
       # Delete this step if your project uses Gradle
-      - name: Build and Test with Maven
-        run: mvn -B clean verify
+      # - name: Build and Test with Maven
+      #   run: mvn -B clean verify
 
       # Step 3 (OPTION B): Build and Test using GRADLE
       # Delete this step if your project uses Maven
